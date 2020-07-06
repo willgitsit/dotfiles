@@ -1,0 +1,13 @@
+set bell-style none
+set editing-mode vi
+
+# recreate emacs mappings
+"\C-b": backward-char
+"\C-f": forward-char
+"\C-d": delete-char
+"\C-a": beginning-of-line
+"\C-e": end-of-line
+"\C-k": kill-line
+"\C-l": clear-screen
+"\C-p": history-search-backward
+"\C-n": history-search-forward
